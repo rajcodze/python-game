@@ -1,0 +1,32 @@
+1 display card selection for user:
+   init; 
+userscroe =0
+comp score=0
+
+user selects  card color : hearts, spade, diamond, clubs
+count=1
+user-card= selected
+computer plays
+computer picks random from 4 
+comp-card = random
+if comp-card=user-card
+
+computer wins 
+computer score = score + count
+else count = count +1
+display: continue-- press a key
+
+user plays:
+random;
+user-card = random
+if user card = comp-card
+user wins
+user score = userscore+ count
+else
+count = count+1
+
+repeat computer- plays 
+
+
+
+
